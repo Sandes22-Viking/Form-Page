@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(41, 38, 38, 0.39), white, rgb(41, 38, 38, 0.39));
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 3.5em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 47, 47);
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    height: 100%;
+    background: rgba(253, 253, 253, 0.979);
+    margin: auto;
+    margin-top: 25px;
+    border: 1px transparent;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgb(55, 54, 56);
+    width: 450px;
+    padding: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 1.4em;
+}
+
+fieldset {
+    border: 0;
+}
+
+.elements label {
+    margin: 0 3px;
+}
+
+textarea, #seniority {
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+button {
+    height: 20px;
+    width: 120px;
+}
